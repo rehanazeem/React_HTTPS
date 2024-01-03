@@ -22,7 +22,7 @@ export default function AvailablePlaces({ onSelectPlace }) {
             posiiton.coords.latitude,
             posiiton.coords.longitude
           );
-          setAvailablePalces(resData.places);
+          setAvailablePalces(places);
           setIsFetching(false);
         });
       } catch (error) {
